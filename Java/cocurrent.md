@@ -23,13 +23,17 @@ new Object() 过程  有半初始化状态
 
 invoke special  调用构造方法负值
 
-Astore 建立对象内存与对象关联
+Astore 建立对象内存与对象关联      
+
+
 
 
 
 双检锁 volitale
 
-使用了半初始化状态的对象
+使用了半初始化状态的对象     
+
+
 
 
 
@@ -47,7 +51,7 @@ store load
 
 
 
-StoreStoreBarrier
+* StoreStoreBarrier
 
 Volatile write
 
@@ -55,7 +59,7 @@ StoreLoadBarrier
 
 
 
-LoadloadBarrier 
+* LoadloadBarrier 
 
 Volatile read
 
