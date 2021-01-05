@@ -39,6 +39,8 @@ Astore 建立对象内存与对象关联
 
 Volitale 实现方法
 
+Aba 问题 version AtomicStampedReference
+
  ***** jvm内存屏障 
 
 Load load 
@@ -128,7 +130,7 @@ m.get();  拿不到 m
 
 ThreadLocal 实现
 
-没个线程内部有ThreadLocal.ThreadLocalMap 的成员变量
+每个线程内部有ThreadLocal.ThreadLocalMap 的成员变量
 
 ThreadLocal 
 
